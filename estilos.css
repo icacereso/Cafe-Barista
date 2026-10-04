@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f0e8;
+    color: #333;
+}
+
+header {
+    background-color: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: #3e2723;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
